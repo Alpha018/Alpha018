@@ -8,9 +8,6 @@ I work with:
 
 - **JavaScript** & **TypeScript**: Building dynamic web applications.
 - **Docker**: Containerization and efficient deployment.
-- **NestJS** & **NextJS**: Full-stack development.
-- **Angular**: Interactive user interfaces.
-- **Go**: A backend language I'm just starting to explore.
 
 ## 🎯 Mission
 
@@ -18,7 +15,7 @@ I aim to create maintainable, scalable, and high-quality software while collabor
 
 ## 🌍 Community Contributions
 
-I'm passionate about contributing to open-source projects and sharing my knowledge with other developers. I'm always on the lookout for new opportunities to contribute and learn.
+I'm passionate about contributing to open-source projects and sharing my knowledge with other developers.
 
 
 ## 🚀 My Development Stats
