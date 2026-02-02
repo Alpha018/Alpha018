@@ -1,0 +1,46 @@
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.settings/
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node.js
+node_modules/
+dist/
+build/
+.npm
+.eslintcache
+*.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.pytest_cache/
+
+# Docker
+.docker/
+
+# Various
+temp/
+tmp/
+.cache/
