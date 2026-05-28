@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy — Aeterna Android</title>
+    <meta
+      name="description"
+      content="Aeterna Android Privacy Policy for Google Play."
+    />
+    <style>
+      :root {
+        --sage-500: #406b51;
+        --sage-100: #dde6df;
+        --cream-50: #fdfbf7;
+        --cream-100: #f8f4ec;
+        --ink-900: #121110;
+        --ink-700: #2a2823;
+        --ink-50: #f5f4f1;
+        --rust-500: #a8452c;
+        --border-light: rgba(31, 28, 22, 0.08);
+        --border-dark: rgba(255, 255, 255, 0.08);
+        color-scheme: light;
+      }
+
+      body {
+        margin: 0;
+        font-family:
+          Inter,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        line-height: 1.6;
+        color: var(--ink-900);
+        background: var(--cream-50);
+      }
+
+      .container {
+        max-width: 940px;
+        margin: 0 auto;
+        padding: 28px 18px 48px;
+      }
+
+      .hero {
+        border: 1px solid var(--border-light);
+        border-radius: 12px;
+        padding: 20px;
+        background: linear-gradient(180deg, #ffffff, var(--cream-100));
+      }
+
+      h1 {
+        line-height: 1.2;
+        margin-top: 0;
+        margin-bottom: 8px;
+        color: var(--sage-500);
+      }
+
+      h2 {
+        line-height: 1.25;
+        margin-top: 24px;
+        margin-bottom: 8px;
+      }
+
+      p,
+      li {
+        color: var(--ink-700);
+      }
+
+      code {
+        padding: 2px 6px;
+        border-radius: 6px;
+        background: var(--sage-100);
+        color: var(--ink-900);
+      }
+
+      .muted {
+        opacity: 0.8;
+      }
+
+      .section {
+        border: 1px solid var(--border-light);
+        border-radius: 10px;
+        padding: 14px 16px;
+        margin-top: 12px;
+        background: #fff;
+      }
+
+      a {
+        color: var(--sage-500);
+      }
+
+      strong.attention {
+        color: var(--rust-500);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          color-scheme: dark;
+        }
+
+        body {
+          background: var(--ink-900);
+          color: var(--ink-50);
+        }
+
+        .hero,
+        .section {
+          background: #1c1b18;
+          border-color: var(--border-dark);
+        }
+
+        h1 {
+          color: #8eaf96;
+        }
+
+        p,
+        li {
+          color: #edebe7;
+        }
+
+        code {
+          background: #264734;
+          color: var(--ink-50);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <section class="hero">
+        <h1>Privacy Policy — Aeterna Android</h1>
+        <p class="muted">Last updated: May 28, 2026</p>
+        <p>
+          This Privacy Policy explains how <strong>Aeterna Android</strong> ("Aeterna",
+          "the app") handles data when used as a mobile client for a user-controlled
+          self-hosted Aeterna server.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>1. Controller and Contact</h2>
+        <p>
+          Developer: <strong>Tomás Alegre</strong><br />
+          Privacy contact: <strong>android@alphacode.cl</strong>
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>2. Scope</h2>
+        <p>
+          This policy applies to the Android application published on Google Play as
+          <strong>Aeterna Android</strong>, package <code>cl.alpha018.aeterna</code>.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>3. Data We Process</h2>
+        <ul>
+          <li>
+            <strong>Connection and account data:</strong> self-hosted server URL,
+            authentication/session token, and connection preferences.
+          </li>
+          <li>
+            <strong>Core app data:</strong> switches/triggers, recipients, reminders,
+            heartbeat-related metadata, and message/farewell configuration.
+          </li>
+          <li>
+            <strong>Attachments:</strong> files explicitly selected by the user for
+            trigger-related workflows.
+          </li>
+          <li>
+            <strong>Diagnostics and telemetry (Firebase):</strong> app events, crash
+            reports, performance traces, installation/app instance identifiers, and
+            device/app metadata processed by Firebase Analytics, Firebase Crashlytics,
+            and Firebase Performance Monitoring.
+          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>4. Why We Process Data</h2>
+        <ul>
+          <li>Deliver the app's primary functionality.</li>
+          <li>Synchronize data with the user-provided self-hosted server.</li>
+          <li>Send reminders and local alerts configured by the user.</li>
+          <li>Monitor reliability and improve stability/performance.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>5. Legal Bases (where applicable)</h2>
+        <ul>
+          <li><strong>Contract/performance:</strong> to provide the requested app service.</li>
+          <li><strong>Legitimate interests:</strong> to maintain app security, reliability, and performance.</li>
+          <li><strong>Consent/settings:</strong> for optional telemetry controls when enabled by the user.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>6. Security and Transport</h2>
+        <ul>
+          <li>
+            <strong>Data at rest:</strong> sensitive local data is stored using local
+            encryption mechanisms.
+          </li>
+          <li>
+            <strong>Data in transit:</strong> Aeterna can connect to self-hosted
+            servers using either HTTP or HTTPS, depending on user/server configuration.
+          </li>
+          <li>
+            <strong class="attention">Security recommendation:</strong> use HTTPS/TLS
+            whenever possible. HTTP traffic is not encrypted in transit.
+          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>7. Data Sharing</h2>
+        <p>We do not sell personal data. Data may be disclosed only as needed to:</p>
+        <ul>
+          <li>
+            Communicate with the user's self-hosted Aeterna server to provide core
+            features.
+          </li>
+          <li>
+            Use service providers required for app operation and diagnostics, such as
+            Google Firebase.
+          </li>
+          <li>Comply with valid legal obligations.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>8. Firebase and User Choice</h2>
+        <p>
+          The app includes Firebase Analytics, Crashlytics, and Performance Monitoring.
+          Aeterna provides an in-app setting to enable or disable
+          analytics/telemetry collection for these services.
+        </p>
+        <p>
+          For more information about Firebase privacy and security, see
+          <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">firebase.google.com/support/privacy</a>.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>9. Retention and Deletion</h2>
+        <ul>
+          <li>
+            Local app data is retained while the app is installed, unless removed by
+            user actions such as logout, clearing app data, or uninstall.
+          </li>
+          <li>
+            Depending on Android backup/account settings, some app data may also be
+            included in system-level backup or device transfer mechanisms.
+          </li>
+          <li>
+            Server-side data retention is managed by the operator of the self-hosted
+            server instance.
+          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>10. International Data Transfers</h2>
+        <p>
+          Depending on your server location and third-party service infrastructure
+          (for example, Firebase), data may be processed in countries outside your
+          country of residence, subject to the safeguards provided by those services.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>11. Account Deletion</h2>
+        <p>
+          If your deployment allows account creation, account deletion requests must be
+          handled by the operator of the corresponding self-hosted Aeterna server.
+          Users should contact their server operator or use the deletion mechanism made
+          available by that deployment.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>12. User Requests</h2>
+        <p>
+          For privacy questions or data-related requests, contact:
+          <strong>android@alphacode.cl</strong>.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>13. Children</h2>
+        <p>
+          Aeterna is not specifically directed to children.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>14. Changes to This Policy</h2>
+        <p>
+          This policy may be updated to reflect legal, technical, or product changes.
+          The latest version will remain available at this URL.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
